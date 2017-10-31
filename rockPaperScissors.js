@@ -39,9 +39,6 @@ const determineWinner = (userChoice, computerChoice) => {
     } else {
       return 'The computer has won';
     }
-  if (userChoice === 'bomb') {
-    return 'The user has won';
-  }
 };
 
 const playGame = () => {
